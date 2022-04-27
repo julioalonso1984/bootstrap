@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.denunciar{
+    background-image: url(../imagenes/animales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+.encabezado{
+    height: 80px;
+    background: repeating-linear-gradient(-135deg, rgb(211, 12, 12), rgb(9, 9, 253) 20%, rgb(20, 1, 1) 50%);
+}
+.logo{
+    height: 80px;
+    opacity: 0.5;
+    float: left;
+}
+.encabezado h3{
+    display: inline-block;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 5%;
+    text-transform: uppercase;
+    color: rgb(248, 240, 240);
+    text-shadow: 5px 5px 5px rgb(209, 57, 57);
+            animation-duration: 2s;
+            animation-name: hola;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+}
+@keyframes hola {
+    0%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+.enlacesDenunciar{
+    background-color: rgb(34, 33, 33);
+    height: 30px;
+}
+.enlacesDenunciar ul li{
+    display: inline-block;
+    padding: 2px;
+
+}
+.enlacesDenunciar ul li a{
+    color: rgb(243, 200, 200);
+    font-size: 12px;
+}
+.enlacesDenunciar ul li a:hover{
+    color: blueviolet;
+}
+section{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+section li{
+    margin-top: 10px;
+    font-size: 45px;
+    color: beige;
+    text-shadow: 5px 5px 5px #000;
+}
